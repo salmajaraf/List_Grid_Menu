@@ -15,26 +15,26 @@
         android:layout_marginEnd="52dp"
         android:layout_marginBottom="80dp"
         android:text="Fruits"
-        app:layout_constraintBottom_toTopOf="@+id/Ann"
+        app:layout_constraintBottom_toTopOf="@+id/Amis"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/Ann"
+        android:id="@+id/Amis"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="51dp"
         android:layout_marginEnd="51dp"
         android:layout_marginBottom="91dp"
-        android:text="Années"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:text="Amis"
+        app:layout_constraintBottom_toTopOf="@+id/Pays"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fruits" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Pays"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="51dp"
@@ -44,5 +44,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Ann" />
+        app:layout_constraintTop_toBottomOf="@+id/Amis" />
 </androidx.constraintlayout.widget.ConstraintLayout>
