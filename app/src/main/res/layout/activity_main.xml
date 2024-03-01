@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/fruits"
+        android:id="@+id/Fruits"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="52dp"
@@ -31,7 +31,7 @@
         app:layout_constraintBottom_toTopOf="@+id/Pays"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fruits" />
+        app:layout_constraintTop_toBottomOf="@+id/Fruits" />
 
     <Button
         android:id="@+id/Pays"
