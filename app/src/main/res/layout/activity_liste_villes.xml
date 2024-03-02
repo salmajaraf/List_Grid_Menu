@@ -5,25 +5,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Liste_villes">
+
+    <!-- Ville 1 -->
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/ville1"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
-        <!-- Ville 1 -->
-        <include layout="@layout/villes_items"/>
-
-        <!-- Ville 2 -->
-        <include layout="@layout/villes_items"/>
-
-
-        <!-- Ville 3 -->
-        <include layout="@layout/villes_items"/>
-
-
+        <include layout="@layout/villes_items" />
 
     </LinearLayout>
+
+    <!-- Ville 2 -->
+    <LinearLayout
+        android:id="@+id/ville2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ville1"
+        tools:ignore="MissingConstraints">
+
+        <include layout="@layout/villes_items" />
+
+    </LinearLayout>
+
+    <!-- Ville 3 -->
+    <LinearLayout
+        android:id="@+id/ville3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ville2"
+        tools:ignore="MissingConstraints">
+
+        <include layout="@layout/villes_items" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/b100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="100dp"
+        android:text="Retour"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

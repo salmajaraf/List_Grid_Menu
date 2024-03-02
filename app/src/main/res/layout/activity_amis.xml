@@ -18,7 +18,7 @@
         app:layout_constraintBottom_toTopOf="@+id/b82"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/b82"
-        app:layout_constraintTop_toBottomOf="@+id/pays">
+        app:layout_constraintTop_toBottomOf="@+id/fruits">
 
         <!-- Friend 1 -->
         <TextView
@@ -154,7 +154,7 @@
     </GridLayout>
 
     <TextView
-        android:id="@+id/pays"
+        android:id="@+id/fruits"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"

@@ -6,4 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".Fruits">
 
+    <TextView
+        android:id="@+id/fruits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="76dp"
+        android:text="Liste de fruits"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/fruitliste"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="54dp"
+        app:layout_constraintBottom_toTopOf="@+id/b88"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="59dp"
+        android:text="Retour"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fruitliste" />
 </androidx.constraintlayout.widget.ConstraintLayout>
